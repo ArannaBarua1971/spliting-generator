@@ -9,5 +9,8 @@ document.spliter.addEventListener('submit',function(e){
     for(var i=0;i<output.length ;i++){
         $('#output').append((i+1)+'. '+output[i] +'<br>')
     }
+    $("#refresh").on("click',function(){
+                    $("#output").hide()
+                     })
 
 })
